@@ -1,5 +1,3 @@
-const { Module } = require("@sinclair/typebox");
-
 function narcissistic(value) {
     const str = String(value);
     const potencia = BigInt(str.length);
