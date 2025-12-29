@@ -14,4 +14,4 @@ function narcissistic(value) {
     return soma === BigInt(value);
 }
 
-module.exports = { narcissistic };
+module.exports = { narcissistic }
