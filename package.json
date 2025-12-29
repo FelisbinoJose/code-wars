@@ -1,0 +1,17 @@
+{
+  "name": "code-wars",
+  "version": "1.0.0",
+  "main": "solucao.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "jest": "^30.2.0",
+    "mocha": "^11.7.5"
+  }
+}
