@@ -1,0 +1,17 @@
+{
+  "name": "code-wars",
+  "version": "1.0.0",
+  "description": "Este desafio consiste em criar uma função que **conte quantos caracteres distintos** aparecem **mais de uma vez** em uma string.",
+  "main": "solucao.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
