@@ -19,15 +19,15 @@ A verificação deve ser **insensível a maiúsculas e minúsculas** (_case-inse
 
 ## 🧪 Exemplos
 
-| Entrada               | Saída | Explicação                         |
-| --------------------- | ----- | ---------------------------------- |
-| `"abcde"`             | `0`   | Nenhum caractere se repete         |
-| `"aabbcde"`           | `2`   | `a` e `b` aparecem mais de uma vez |
-| `"aabBcde"`           | `2`   | `a` e `b` (case-insensitive)       |
-| `"indivisibilidade"`  | `1`   | `i` aparece várias vezes           |
-| `"Indivisibilidades"` | `2`   | `i` e `s`                          |
-| `"aA11"`              | `2`   | `a` e `1`                          |
-| `"ABBA"`              | `2`   | `A` e `B`                          |
+| Entrada               | Saída | Explicação                          |
+| --------------------- | ----- | ----------------------------------- |
+| `"abcde"`             | `0`   | Nenhum caractere se repete          |
+| `"aabbcde"`           | `2`   | `a` e `b` aparecem mais de uma vez  |
+| `"aabBcde"`           | `2`   | `a` e `b` (case-insensitive)        |
+| `"indivisibilidade"`  | `1`   | `i` e `d` aparece várias vezes      |
+| `"Indivisibilidades"` | `2`   | `i` `d` e `s` aparecem várias vezes |
+| `"aA11"`              | `2`   | `a` e `1`                           |
+| `"ABBA"`              | `2`   | `A` e `B`                           |
 
 ---
 
