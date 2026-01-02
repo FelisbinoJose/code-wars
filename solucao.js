@@ -1,14 +1,20 @@
 function sum(valorInicial) {
-    let total = valorInicial || 0;
+    if (valorInicial === undefined) {
+        return 0;
+    }
 
-    return function interna(novoValor) {
+    let total = valorInicial;
+
+    function interna(novoValor) {
         if (novoValor === undefined) {
             return total;
         }
 
         total += novoValor;
         return interna;
-    };
+    }
+
+    return interna;
 }
 
 module.exports = { sum };
